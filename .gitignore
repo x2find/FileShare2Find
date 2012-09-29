@@ -2,5 +2,8 @@
 bin
 obj
 
+#Resharper shouldn't be there
+_ReShaper*
+
 # mstest test results
 TestResults
