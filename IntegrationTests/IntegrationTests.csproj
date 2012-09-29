@@ -56,12 +56,6 @@
     <Compile Include="TestSupport.cs" />
     <Compile Include="Watcher.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FileShareToFind\FileShareToFind.csproj">
-      <Project>{80A282AB-6612-4FDC-A7CA-6433BCD16CE1}</Project>
-      <Name>FileShareToFind</Name>
-    </ProjectReference>
-  </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <None Include="App.config">
