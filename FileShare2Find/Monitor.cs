@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using EPiServer.Find;
-using FileShareToFind.Document;
+using FileShare2Find.Document;
 
-namespace FileShareToFind
+namespace FileShare2Find
 {
     public class Monitor
     {

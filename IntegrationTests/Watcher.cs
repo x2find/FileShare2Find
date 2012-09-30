@@ -10,7 +10,7 @@ namespace IntegrationTests
         public static Process WatcherProcess { get; set; }
         public void StartWatcher()
         {
-            WatcherProcess = Process.Start("FileShareToFind.exe","C:\\temp\\");   
+            WatcherProcess = Process.Start("FileShare2Find.exe","C:\\temp\\");   
         }
 
         public void StopWatcher()

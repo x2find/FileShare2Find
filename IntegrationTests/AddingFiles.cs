@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using EPiServer.Find;
 using EPiServer.Find.Api.Querying;
-using FileShareToFind.Document;
+using FileShare2Find.Document;
 using Machine.Specifications;
 
 namespace IntegrationTests

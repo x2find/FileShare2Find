@@ -1,6 +1,6 @@
 ﻿using System.IO;
 using EPiServer.Find;
-using FileShareToFind.Document;
+using FileShare2Find.Document;
 using Machine.Specifications;
 
 namespace IntegrationTests
@@ -19,7 +19,6 @@ namespace IntegrationTests
                                             Watcher.Instance.AwaitRefresh();
                                             fileInfo = testSupport.CreateTestFileAndCopyToFolder("C:\\temp\\");
                                             Watcher.Instance.AwaitRefresh();
-
                                         };
 
         private Because of = () =>

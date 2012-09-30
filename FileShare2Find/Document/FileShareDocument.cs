@@ -4,9 +4,8 @@ using System.IO;
 using System.Security.AccessControl;
 using System.Security.Cryptography;
 using EPiServer.Find;
-using EPiServer.Find.Helpers;
 
-namespace FileShareToFind.Document
+namespace FileShare2Find.Document
 {
     public class FileShareDocument
     {

@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace FileShareToFind
+namespace FileShare2Find
 {
-    public class FileShareToFind
+    public class FileShare2Find
     {
         public static void Main()
         {

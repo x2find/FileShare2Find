@@ -8,8 +8,8 @@
     <ProjectGuid>{80A282AB-6612-4FDC-A7CA-6433BCD16CE1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FileShareToFind</RootNamespace>
-    <AssemblyName>FileShareToFind</AssemblyName>
+    <RootNamespace>FileShare2Find</RootNamespace>
+    <AssemblyName>FileShare2Find</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -51,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Document\FileShareDocument.cs" />
-    <Compile Include="FileShareToFind.cs" />
+    <Compile Include="FileShare2Find.cs" />
     <Compile Include="Monitor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

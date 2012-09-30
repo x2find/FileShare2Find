@@ -56,7 +56,12 @@
     <Compile Include="TestSupport.cs" />
     <Compile Include="Watcher.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\FileShare2Find\FileShare2Find.csproj">
+      <Project>{80A282AB-6612-4FDC-A7CA-6433BCD16CE1}</Project>
+      <Name>FileShare2Find</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
       <SubType>Designer</SubType>

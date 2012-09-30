@@ -1,6 +1,6 @@
 ﻿using System.IO;
 using EPiServer.Find;
-using FileShareToFind.Document;
+using FileShare2Find.Document;
 using Machine.Specifications;
 
 namespace IntegrationTests
@@ -36,7 +36,7 @@ namespace IntegrationTests
                 .GetResult();
         };
 
-        It should_result_in_a_empty_result = () => searchResults.TotalMatching.ShouldEqual(1);
+        It should_result_in_a_single_hit = () => searchResults.TotalMatching.ShouldEqual(1);
 
         private Cleanup after = () =>
         {
